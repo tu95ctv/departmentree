@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="hr_department_form_inherit" model="ir.ui.view">
+        <field name="name">hr.department.form</field>
+        <field name="model">hr.department</field>
+        <field name="inherit_id" ref="hr.view_department_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='manager_id']" position="after">
+                <!-- <field name="department_group_id" /> -->
+                <field name="is_virtual"  />
+            </xpath>
+            <!-- <xpath expr="//field[@name='parent_id']" position="attributes">
+                <attribute name="attrs">{'invisible': [('is_virtual', '=', True)]}</attribute>
+            </xpath> -->
+        </field>
+    </record>
+
+
+    <!--mini-->
+
+
+    <record id="hr_department_form_inherit_mini" model="ir.ui.view">
+        <field name="name">hr.department.form</field>
+        <field name="model">hr.department</field>
+        <field name="arch" type="xml">
+        <form>
+            <group>
+                <field name="employee_ids" widget="many2many"/>
+            </group>
+        </form>
+                </field>
+
+    </record>
+
+
+    <record id="mini_department_action" model="ir.actions.act_window">
+            <field name="name">Department</field>
+            <field name="res_model">hr.department</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="hr_department_form_inherit_mini"/>
+    </record>
+
+
+    <record id="mini_department_view_link_action" model="ir.actions.act_window.view">
+            <field name="sequence" eval="0"/>
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="hr.view_department_tree"/>
+            <field name="act_window_id" ref="mini_department_action"/>
+        </record>
+
+
+
+</odoo>

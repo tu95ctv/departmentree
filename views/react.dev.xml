@@ -1,0 +1,15 @@
+<odoo>
+<template id="assets_backend" name="custom page assets" inherit_id="web.assets_backend">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/department_matrix/static/src/js/employee_assignments.js"></script>
+        </xpath>
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/department_matrix/static/src/employee_assignments/dist/employee_assignments.464c527d.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/20.2.4/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/20.2.4/css/dx.material.teal.light.compact.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/20.2.4/css/dx-gantt.min.css" />
+            <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;display=swap" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;display=swap" rel="stylesheet" />
+        </xpath>
+    </template>
+</odoo>

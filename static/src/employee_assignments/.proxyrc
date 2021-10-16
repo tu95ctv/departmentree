@@ -1,0 +1,5 @@
+{
+  "/web": {
+    "target": "http://localhost:8074/",
+  }
+}

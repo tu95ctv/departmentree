@@ -1,0 +1,10 @@
+.chart_table {
+    table-layout: fixed;
+    width: 200px;
+  }
+  
+.chart_th,
+.chart_td {
+width: 100px;
+overflow: hidden;
+}

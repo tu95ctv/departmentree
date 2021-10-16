@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<svg width="120" height="120" viewBox="0 0 120 120" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <line x1='0' y1='60' x2='120' y2='60' stroke='black' />
+  <line x1='60' y1='0' x2='60' y2='120' stroke='black' />
+</svg>

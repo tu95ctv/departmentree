@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="dep_matrix_js_template1">
+        <div class="container-fluid py-2 o_web_settings_dashboard">
+            <div id="root"></div>
+            <script src="/department_matrix/static/src/employee_assignments/dist/employee_assignments.3749033e.js"></script>
+        </div>
+    </t>
+
+</templates>

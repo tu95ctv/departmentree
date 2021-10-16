@@ -1,0 +1,268 @@
+.treetable-editing-demo .p-treetable .p-treetable-tbody>tr>td.p-cell-editing {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.hover:hover {
+    color: #ed1212;
+    cursor: pointer;
+}
+
+#overlay_panel {
+    transform-origin: unset !important;
+    top: unset !important;
+    left: unset !important;
+}
+
+.oe_title h1 {
+    color: #000 !important;
+}
+
+
+/* ################## */
+
+p.ndt_plus {
+    font-size: 30px;
+    /* font-weight: bold; */
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    /* margin-top: -1rem; */
+}
+
+.p-scrollpanel-wrapper {
+    height: 10000px;
+}
+
+.p-treetable .p-treetable-thead>tr {
+    padding: 0px;
+}
+
+.p-treetable .p-treetable-thead>tr:nth-child(2)>th {
+    background-image: none;
+}
+
+.ban_box {
+    width: 7rem;
+    height: 4rem;
+    background-color: white;
+    border: 1px solid black;
+    /* position: absolute; */
+    margin-left: auto;
+    margin-right: auto;
+    /* left: 0;
+right: 0; */
+    text-align: center;
+    /* bottom: 0; */
+    border-top: 10px solid blue;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .ban_box_wr {
+position:relative;
+height:100%
+}
+.p-column-title {
+display: block;
+position:relative;
+height:100%;
+
+}
+.ban_box {
+width: 100px;
+height: 50px;
+background-color: white;
+border: 1px solid black;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+bottom: 0;
+border-top: 10px solid blue;
+border-radius: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+
+.ban_box_o {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    vertical-align: middle !important;
+    /* text-align: center !important; */
+    border-top: 10px solid blue;
+    border-radius: 10%;
+    /* line-height: 70px; */
+    /* display: flex;
+justify-content: center;
+align-items: center; */
+}
+
+.p-treetable-tbody td {
+    height: 9rem;
+    width: 11rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.p-treetable-tbody td {
+    background-image: url('cross.png');
+    background-size: 100% 100%;
+    border: none !important;
+}
+
+.p-treetable-tbody tr:last-child td {
+    background-image: url('cross_bottom.png');
+    background-size: 100% 100%;
+    border: none !important;
+}
+
+.p-treetable-tbody tr:last-child td:last-child {
+    background-image: url('cross_right_bottom.png');
+    background-size: 100% 100%;
+}
+
+.phong_line_first {
+    height: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border: none !important;
+    background-image: url('phong_line_first.png') !important;
+    background-size: 100% 100% !important;
+}
+
+.phong_line_last {
+    height: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border: none !important;
+    background-image: url('phong_line_last.png') !important;
+    background-size: 100% 100% !important;
+}
+
+.middle_line {
+    height: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border: none !important;
+    background-image: url('header_middel_line.png') !important;
+    background-size: 100% 100% !important;
+}
+
+.phong_line_middle {
+    height: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border: none !important;
+    background-image: url('phong_line1.png') !important;
+    background-size: 100% 100% !important;
+}
+
+.p-treetable-tbody td:last-child {
+    background-image: url('cross_right.png');
+    background-size: 100% 100%;
+    border: none !important;
+}
+
+.right_border {
+    background-image: url('phong_line_last.png') !important;
+    background-size: 100% 100%;
+    border: none !important;
+}
+
+.p-treetable-tbody td:first-child {
+    background-image: url('cross_first.png');
+}
+
+.p-treetable-tbody tr:last-child td:first-child {
+    background-image: url('cross_first_bottom.png');
+}
+
+.p-treetable-tbody tr:first-child td:first-child {
+    background-image: url('cross_first_top.png');
+}
+
+.p-treetable-tbody tr {
+    border: none !important;
+}
+
+.ndt_cell_image {
+    border-radius: 50%;
+}
+
+.child {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(8, 8, 175);
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -1rem;
+    /* line-height: 40px; */
+    /* display: flex;
+justify-content: center;
+align-items: center; */
+}
+
+.phong_box {
+    width: 100px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-top: 10px solid orange;
+    border-radius: 10%;
+    /* line-height: 70px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .ban_box p, .child p, .phong_box p {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom:0px;
+  } */
+
+
+/* .p-treetable .p-treetable-thead > tr > th {
+  padding:0px;
+}
+   */
+
+.p-treetable .p-treetable-tbody>tr>td {
+    border: none;
+}
+
+.p-treetable .p-treetable-tbody>tr {
+    border: none;
+}
+
+button.p-treetable-toggler {
+    display: none;
+}

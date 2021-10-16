@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<record id="action_custom_page" model="ir.actions.client">
+    <field name="name">Department Matrix</field>
+    <field name="tag">department_matrix.dep_matrix</field>
+    <field name="params">{'name': 'employee_assignments'}</field>
+</record>
+
+<!-- <record id="action_org_chart_page" model="ir.actions.client">
+    <field name="name">Organization Chart</field>
+    <field name="tag">department_matrix.dep_matrix</field>
+    <field name="params">{'name': 'org_chart'}</field>
+</record>
+<record id="action_project_dashboard_page" model="ir.actions.client">
+    <field name="name">Project Dashboard</field>
+    <field name="tag">department_matrix.dep_matrix</field>
+    <field name="params">{'name': 'grantt'}</field>
+</record>
+<record id="action_rtc_chat_page" model="ir.actions.client">
+    <field name="name">Rtc</field>
+    <field name="tag">department_matrix.dep_matrix</field>
+    <field name="params">{'name': 'rtc'}</field>
+</record> -->
+
+<menuitem id="menu_todo_root" parent="hr.menu_hr_root" name="Department Matrix Trobz " sequence="5" />
+<menuitem
+        id="menu_root_custom_page"
+        name="Department Matrix Trobz"
+        action="action_custom_page"
+        parent="menu_todo_root"
+        groups="base.group_user"
+        sequence="2"/>
+
+<menuitem
+        id="mini_department"
+        name="Mini department"
+        action="mini_department_action"
+        parent="menu_todo_root"
+        groups="base.group_user"
+        sequence="2"/>
+
+</odoo>

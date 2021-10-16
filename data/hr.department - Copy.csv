@@ -1,0 +1,26 @@
+id,name,parent_id:id,is_virtual
+Ban_1,Ban 1,,
+Ban_2,Ban 2,,
+Ban_3,Ban 3,,
+Ban_4,Ban 4,,
+Ban_5,Ban 5,,
+Ban_6,Ban 6,,
+Phong_A,Phong_A,,TRUE
+Phong_A1,Phong_A1,Phong_A,TRUE
+Phong_A2,Phong_A2,Phong_A,TRUE
+Phong_A3,Phong_A3,Phong_A,TRUE
+Phong_A11,Phong_A11,Phong_A1,TRUE
+Phong_A12,Phong_A12,Phong_A1,TRUE
+Phong_A13,Phong_A13,Phong_A1,TRUE
+Phong_A21,Phong_A21,Phong_A2,TRUE
+Phong_A22,Phong_A22,Phong_A2,TRUE
+Phong_A31,Phong_A31,Phong_A3,TRUE
+Phong_A111,Phong_A111,Phong_A11,TRUE
+Phong_A121,Phong_A121,Phong_A12,TRUE
+Phong_A131,Phong_A131,Phong_A13,TRUE
+Phong_A211,Phong_A211,Phong_A21,TRUE
+Phong_A221,Phong_A221,Phong_A22,TRUE
+Phong_A311,Phong_A311,Phong_A31,TRUE
+Phong_A212,Phong_A212,Phong_A21,TRUE
+Phong_A222,Phong_A222,Phong_A22,TRUE
+Phong_A312,Phong_A312,Phong_A31,TRUE
